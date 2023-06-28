@@ -1,0 +1,56 @@
+.skyBlue {
+    color: #61dafb;
+}
+
+body {
+    background-color: #ffe6951e;
+}
+
+.book-image {
+    object-fit: contain;
+    height: 70%;
+}
+
+/* .body-card {
+    min-height: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .book-title {
+    text-align: center;
+    padding: 20px;
+} */
+
+.bg-image::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    /* scrivi un background-color da blu a viola */
+    background-color: rgba(255, 255, 255, 0.315);
+    z-index: 0;
+}
+
+
+.bg-image {
+    background: linear-gradient(rgba(0, 17, 255, 0.37), rgba(162, 0, 255, 0.349)), url(../assets/travel.png);
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    position: relative;
+    min-height:  100vh;
+}
+
+.bg-image > * {
+    position: relative;
+    z-index: 2;
+}
+/* 
+.bg {
+    min-height: 100vh;
+} */
+

@@ -1,0 +1,15 @@
+.title-rating { 
+    color: #ffc107; 
+    font-size: 20px; 
+    padding-left: 5px; 
+    margin: auto;
+} 
+
+input[type="radio"] {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+    transition: color 200ms ease-in-out !important;
+}

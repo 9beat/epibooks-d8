@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Slackside+One&display=swap');
+
+
+.bg-about::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    /* scrivi un background-color da blu a viola */
+    background-color: rgba(255, 255, 255, 0.315);
+    z-index: 0;
+}
+
+.bg-about {
+    background: linear-gradient(rgba(0, 17, 255, 0.37), rgba(162, 0, 255, 0.349)), url(../assets/travel.png);
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: 100% !important;
+    position: relative;
+}
+
+.bg-about > * {
+    position: relative;
+    z-index: 2;
+}
+
+.about-heading {
+    cursor: wait;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding: 20px, 0, 0, 0;
+    font-size: 4em;
+    color: rgba(162, 0, 255, 0.568) !important;
+    text-shadow: 2px 4px #82e4ff , 2px 2px #86e5ff, 2px 2px rgba(162, 0, 255, 0.568) , -4px 9px rgba(0, 17, 255, 0.568);
+    font-weight: 800;
+}
+
+.about-taste {
+    text-align: center;
+    margin: auto;
+    margin-top: -3rem;
+    padding: 0;
+    color: rgba(162, 0, 255, 0.349) !important;
+    font-family: 'Rightous', cursive !important;
+    padding: 0, 0, 500px, 0;
+    font-size: 1.5em;;
+    text-shadow:  1px 1px rgba(0, 0, 0, 0.568), -1px 1px rgba(0, 0, 0, 0.568);
+    font-weight: 800;
+}
+
+
+.about-container {
+    min-height: 350px;
+}
+
+
+

@@ -1,0 +1,66 @@
+
+.body-card:hover {
+    transform: scale(.99);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* .text-format {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
+
+
+.skyBlue {
+    color: #61dafb;
+}
+
+body {
+    background-color: #ffe6951e;
+}
+
+.book-image {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+}
+
+.body-card {
+    max-height: 590px;
+    max-width: 300px;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(27, 27, 27, 0.3);
+    transition: transform .15s ease-in !important;
+}
+
+
+
+.shadow-danger {
+    box-shadow: -5px 10px 20px 15px rgba(255, 0, 0, 0.699);
+}
+
+.book-title {
+    text-align: center;
+    padding: 20px;
+}
+
+.show-details {
+    padding: 0 !important;
+    background-color: #29d1ff !important;
+    transition: color .1s ease-out !important;
+    color: black !important;
+
+}
+
+.show-details:hover {
+    transform: scale(1.1);
+    transition: transform .25s ease-in !important;
+    box-shadow: 3px 13px 10px rgba(27, 27, 27, 0.3) !important;
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.btn-font {
+    font-size: 1.1rem;
+}

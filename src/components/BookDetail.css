@@ -1,0 +1,9 @@
+.img-detail {
+    max-height: 400px !important;
+    object-fit: cover !important;
+    padding-right: 1.5rem !important;
+}
+
+.card {
+    max-height: 590px;
+}
